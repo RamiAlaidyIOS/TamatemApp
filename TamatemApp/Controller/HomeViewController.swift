@@ -9,11 +9,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
-//    static func instantiate() -> HomeViewController{
-//        let storyboard = UIStoryboard(name: "Main", bundle: .main)
-//        let vc = storyboard.instantiateInitialViewController() as! HomeViewController
-//        return vc
-//    }
+    @IBOutlet weak var RoundedButtton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7X-5h-hGO" customClass="RoundedButton" customModule="TamatemApp" customModuleProvider="target">
-                                <rect key="frame" x="98.333333333333329" y="340" width="196.33333333333337" height="172"/>
+                                <rect key="frame" x="108" y="340" width="177" height="172"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <attributedString key="attributedTitle">
@@ -52,11 +52,14 @@
                         <constraints>
                             <constraint firstItem="D7X-5h-hGO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AyL-bK-SRA"/>
                             <constraint firstItem="D7X-5h-hGO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DF2-EG-GYL"/>
-                            <constraint firstItem="D7X-5h-hGO" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="qcw-vz-GPi"/>
+                            <constraint firstItem="D7X-5h-hGO" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.45" id="qcw-vz-GPi"/>
                             <constraint firstItem="D7X-5h-hGO" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.201878" id="ra3-nD-L1f"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lPx-Ju-eMC"/>
+                    <connections>
+                        <outlet property="RoundedButtton" destination="D7X-5h-hGO" id="JU0-wy-iNl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
