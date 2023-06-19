@@ -11,7 +11,6 @@
 		73E714212A3F442200021C72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E714202A3F442200021C72 /* SceneDelegate.swift */; };
 		73E714232A3F442200021C72 /* CoordaniteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E714222A3F442200021C72 /* CoordaniteApp.swift */; };
 		73E714262A3F442200021C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E714242A3F442200021C72 /* Main.storyboard */; };
-		73E714292A3F442200021C72 /* TamatemApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73E714272A3F442200021C72 /* TamatemApp.xcdatamodeld */; };
 		73E7142B2A3F442A00021C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E7142A2A3F442A00021C72 /* Assets.xcassets */; };
 		73E7142E2A3F442A00021C72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E7142C2A3F442A00021C72 /* LaunchScreen.storyboard */; };
 		73E7143A2A3F458C00021C72 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E714392A3F458C00021C72 /* HomeViewController.swift */; };
@@ -25,7 +24,6 @@
 		73E714202A3F442200021C72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		73E714222A3F442200021C72 /* CoordaniteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordaniteApp.swift; sourceTree = "<group>"; };
 		73E714252A3F442200021C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		73E714282A3F442200021C72 /* TamatemApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TamatemApp.xcdatamodel; sourceTree = "<group>"; };
 		73E7142A2A3F442A00021C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73E7142D2A3F442A00021C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73E7142F2A3F442A00021C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 				73E714382A3F444C00021C72 /* Resources */,
 				73E7143B2A3F478D00021C72 /* Core */,
 				73E7142F2A3F442A00021C72 /* Info.plist */,
-				73E714272A3F442200021C72 /* TamatemApp.xcdatamodeld */,
 			);
 			path = TamatemApp;
 			sourceTree = "<group>";
@@ -201,7 +198,6 @@
 				73E7143A2A3F458C00021C72 /* HomeViewController.swift in Sources */,
 				73E7143E2A3F47D000021C72 /* RoundedButton.swift in Sources */,
 				73E714232A3F442200021C72 /* CoordaniteApp.swift in Sources */,
-				73E714292A3F442200021C72 /* TamatemApp.xcdatamodeld in Sources */,
 				73E7141F2A3F442200021C72 /* AppDelegate.swift in Sources */,
 				73E714212A3F442200021C72 /* SceneDelegate.swift in Sources */,
 				73E714402A3F4B9000021C72 /* WebPageViewController.swift in Sources */,
@@ -422,19 +418,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		73E714272A3F442200021C72 /* TamatemApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				73E714282A3F442200021C72 /* TamatemApp.xcdatamodel */,
-			);
-			currentVersion = 73E714282A3F442200021C72 /* TamatemApp.xcdatamodel */;
-			path = TamatemApp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 73E714132A3F442200021C72 /* Project object */;
 }

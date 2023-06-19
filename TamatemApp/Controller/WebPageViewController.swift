@@ -55,6 +55,7 @@ class WebPageViewController: UIViewController {
 
     @objc func onClickForwardButton() {
         print("Forward")
+        self.webView.goForward()
     }
 
     @objc func onClickRefrshButton() {

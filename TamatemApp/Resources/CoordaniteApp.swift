@@ -18,7 +18,7 @@ class CoordaniteApp{
     func startLogin(){
         
         //This VC For Home Demo
-        let loginVC = HomeViewController.instantiate()
+        let loginVC = HomeViewController()
         let navigationController = UINavigationController(rootViewController: loginVC)
         window.rootViewController = navigationController
         window.makeKeyAndVisible()

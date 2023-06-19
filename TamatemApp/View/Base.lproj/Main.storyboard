@@ -11,13 +11,13 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController restorationIdentifier="HomeViewController" storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="TamatemApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="TamatemApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7X-5h-hGO" customClass="RoundedButton2" customModule="TamatemApp" customModuleProvider="target">
-                                <rect key="frame" x="108" y="340.66666666666669" width="177" height="170.66666666666669"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7X-5h-hGO" customClass="RoundedButton" customModule="TamatemApp" customModuleProvider="target">
+                                <rect key="frame" x="98.333333333333329" y="340" width="196.33333333333337" height="172"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <attributedString key="attributedTitle">
@@ -32,14 +32,14 @@
                                     <color key="baseForegroundColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadios">
-                                        <real key="value" value="0.0"/>
-                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <real key="value" value="9"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                         <color key="value" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -50,10 +50,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="D7X-5h-hGO" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.45" id="BkR-qe-FyC"/>
-                            <constraint firstItem="D7X-5h-hGO" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="JPM-HQ-epd"/>
-                            <constraint firstItem="D7X-5h-hGO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Sdc-Wk-OTp"/>
-                            <constraint firstItem="D7X-5h-hGO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jKo-XI-1h5"/>
+                            <constraint firstItem="D7X-5h-hGO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AyL-bK-SRA"/>
+                            <constraint firstItem="D7X-5h-hGO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DF2-EG-GYL"/>
+                            <constraint firstItem="D7X-5h-hGO" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="qcw-vz-GPi"/>
+                            <constraint firstItem="D7X-5h-hGO" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.201878" id="ra3-nD-L1f"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lPx-Ju-eMC"/>
