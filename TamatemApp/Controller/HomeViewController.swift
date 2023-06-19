@@ -9,12 +9,6 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
-//    static func instantiate() -> HomeViewController{
-//        let storyboard = UIStoryboard(name: "Main", bundle: .main)
-//        let vc = storyboard.instantiateInitialViewController() as! HomeViewController
-//        return vc
-//    }
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
